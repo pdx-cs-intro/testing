@@ -6,7 +6,7 @@
 def triangle(n):
     row_length = 1
     balls_used = 0
-    while n > row_length:
+    while n >= row_length:
         n = n - row_length
         balls_used = balls_used + row_length
         row_length = row_length + 1
